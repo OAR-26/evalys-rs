@@ -8,7 +8,7 @@ name = "evalys-rs"
 path = "src/main.rs"
 
 [dependencies]
-ganttza = { path = "../ganttza" }
+ganttza = { git = "https://github.com/OAR-26/ganttza.git", branch = "main" }
 eframe = "0.30.0"
 chrono = "0.4"
 toml = "0.8"
